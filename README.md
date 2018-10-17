@@ -1,13 +1,13 @@
 # Conways-Game-of-Life-SFML
 A SFML test.
 
-[h1] Requirements [/h1]
+ Requirements
 
-main.cpp
-resourcepath.mm
-resourcepath.h
-global.h
-cell.h
+main.cpp;
+resourcepath.mm;
+resourcepath.h;
+global.h;
+cell.h;
 sansation.ttf
 
 SFML Download: 
