@@ -25,6 +25,8 @@
 		AA141F9C2174485E00A03686 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		AA141F9E2174485E00A03686 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		AA141FA02174485E00A03686 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		AA141FA72174490800A03686 /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		AA141FA8217452FF00A03686 /* Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,8 @@
 				AA141F972174485E00A03686 /* main.cpp */,
 				AA141F992174485E00A03686 /* Resources */,
 				AA141F922174485E00A03686 /* Supporting Files */,
+				AA141FA72174490800A03686 /* Global.h */,
+				AA141FA8217452FF00A03686 /* Cell.h */,
 			);
 			path = conways;
 			sourceTree = "<group>";
