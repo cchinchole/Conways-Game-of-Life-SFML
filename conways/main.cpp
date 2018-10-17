@@ -169,7 +169,7 @@ int main(int, char const**)
             
             if(event.type == sf::Event::KeyPressed)
             {
-                if(event.key.code == sf::Keyboard::Escape)
+                if(event.key.code == sf::Keyboard::Q)
                     window.close();
                 if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space))
                     ready = !ready;
@@ -204,17 +204,17 @@ int main(int, char const**)
             /* Movement events */
             if(sf::Keyboard::isKeyPressed(sf::Keyboard::Escape) )
                 window.close();
-            if(sf::Keyboard::isKeyPressed(sf::Keyboard::Q))
+            if(sf::Keyboard::isKeyPressed(sf::Keyboard::Z))
                 viewPoint.zoom(0.94f);
-            if(sf::Keyboard::isKeyPressed(sf::Keyboard::W))
+            if(sf::Keyboard::isKeyPressed(sf::Keyboard::X))
                 viewPoint.zoom(1.06f);
-            if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
+            if(sf::Keyboard::isKeyPressed(sf::Keyboard::A))
                 viewPoint.setCenter(viewPoint.getCenter().x-2.68f, viewPoint.getCenter().y);
-            if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
+            if(sf::Keyboard::isKeyPressed(sf::Keyboard::D))
                 viewPoint.setCenter(viewPoint.getCenter().x+2.68f, viewPoint.getCenter().y);
-            if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
+            if(sf::Keyboard::isKeyPressed(sf::Keyboard::W))
                 viewPoint.setCenter(viewPoint.getCenter().x, viewPoint.getCenter().y-2.68f);
-            if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down))
+            if(sf::Keyboard::isKeyPressed(sf::Keyboard::S))
                 viewPoint.setCenter(viewPoint.getCenter().x, viewPoint.getCenter().y+2.68f);
         
         

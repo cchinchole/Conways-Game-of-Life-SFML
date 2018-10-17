@@ -12,13 +12,13 @@
 const int _WIDTH = 2000, _HEIGHT = 1000, _SIZE = 5, _ARRSIZE = 4, _SCALAR = (_WIDTH*4);
 int cycles = 0;
 
- int _ACTIVECOLOR[] = {
+int _ACTIVECOLOR[] = {
     0,
     0,
     0,
     255,
 };
- int _DEADCOLOR[] = {
+int _DEADCOLOR[] = {
     255,
     255,
     255,
